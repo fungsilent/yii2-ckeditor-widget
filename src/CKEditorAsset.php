@@ -21,7 +21,11 @@ class CKEditorAsset extends AssetBundle
     public $sourcePath = '@vendor/ckeditor/ckeditor/';
     public $js = [
         'ckeditor.js',
-        'adapters/jquery.js'
+        'adapters/jquery.js',
+        'plugins/font/plugin.js',
+        'plugins/colorbutton/plugin.js',
+        'plugins/colordialog/plugin.js',
+
     ];
     public $depends = [
         'yii\web\YiiAsset',
